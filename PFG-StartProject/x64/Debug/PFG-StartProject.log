@@ -1,0 +1,37 @@
+﻿  Application.cpp
+\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-startproject\pfg-startproject\src\application.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'float'
+\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-startproject\pfg-startproject\src\application.cpp(168): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Camera.cpp
+  GameObject.cpp
+  Input.cpp
+  Main.cpp
+  Material.cpp
+  Mesh.cpp
+\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-startproject\pfg-startproject\src\mesh.cpp(138): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Scene.cpp
+  Generating Code...
+  glew.c
+Application.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: bool __cdecl Application::Exit(void)" (?Exit@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function "public: bool __cdecl Application::Update(void)" (?Update@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_GL_DeleteContext referenced in function "public: bool __cdecl Application::Exit(void)" (?Exit@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_ShowCursor referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: bool __cdecl Application::Update(void)" (?Update@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: bool __cdecl Application::Init(void)" (?Init@Application@@QEAA_NXZ)
+Application.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: bool __cdecl Application::Exit(void)" (?Exit@Application@@QEAA_NXZ)
+Camera.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "public: void __cdecl Camera::Update(class Input *)" (?Update@Camera@@QEAAXPEAVInput@@@Z)
+Input.obj : error LNK2001: unresolved external symbol SDL_GetMouseState
+Camera.obj : error LNK2019: unresolved external symbol SDL_WarpMouseInWindow referenced in function "public: void __cdecl Camera::Update(class Input *)" (?Update@Camera@@QEAAXPEAVInput@@@Z)
+Input.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Input::update(void)" (?update@Input@@QEAAXXZ)
+Material.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "protected: unsigned int __cdecl Material::LoadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadTexture@Material@@IEAAIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Material.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "protected: unsigned int __cdecl Material::LoadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadTexture@Material@@IEAAIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Material.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function "protected: unsigned int __cdecl Material::LoadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadTexture@Material@@IEAAIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+\\bournemouth.ac.uk\data\Student\Home\SciTech\s5063237\Desktop\PFG-StartProject\PFG-StartProject\SDKs\sdl\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+\\bournemouth.ac.uk\data\Student\Home\SciTech\s5063237\Desktop\PFG-StartProject\PFG-StartProject\SDKs\sdl\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+\\bournemouth.ac.uk\data\student\home\SciTech\s5063237\Desktop\PFG-StartProject\x64\Debug\PFG-StartProject.exe : fatal error LNK1120: 20 unresolved externals
