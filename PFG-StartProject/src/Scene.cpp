@@ -94,6 +94,14 @@ void Scene::Update(float deltaTs, Input* input)
 	{
 		_simulation_start = true;
 	}
+
+	//	(STEP 1) Clear forces
+	//	(STEP 2) Compute forces
+	//	(STEP 3) Compute collisions
+	//	(STEP 4) One step euler intergration
+
+	/*
+	
 	if (_simulation_start == true)
 	{
 		glm::vec3 pos = _physics_object->GetPosition();
@@ -110,6 +118,9 @@ void Scene::Update(float deltaTs, Input* input)
 
 	}
 	_physics_object->Update(deltaTs);
+	*/
+
+	//rest of the updates
 	_level->Update(deltaTs);
 	_camera->Update(input);
 

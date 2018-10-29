@@ -1,17 +1,2 @@
-﻿  Application.cpp
-\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-task1\pfg-startproject\src\application.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'float'
-\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-task1\pfg-startproject\src\application.cpp(168): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Camera.cpp
-  GameObject.cpp
-  Input.cpp
-\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-task1\pfg-startproject\src\input.cpp(99): warning C4018: '<': signed/unsigned mismatch
-\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-task1\pfg-startproject\src\input.cpp(111): warning C4018: '<': signed/unsigned mismatch
-\\bournemouth.ac.uk\data\student\home\scitech\s5063237\desktop\pfg-task1\pfg-startproject\src\input.cpp(123): warning C4018: '<': signed/unsigned mismatch
-  KinematicsObject.cpp
-  Main.cpp
-  Material.cpp
-  Mesh.cpp
-  Scene.cpp
-  Generating Code...
-  glew.c
-  PFG-StartProject.vcxproj -> \\bournemouth.ac.uk\data\Student\Home\SciTech\s5063237\Desktop\PFG-TASK1\PFG-StartProject\build\Debug\PFG-StartProject.exe
+﻿  DynamicsObject.cpp
+  PFG-StartProject.vcxproj -> \\bournemouth.ac.uk\data\Student\Home\SciTech\s5063237\Desktop\PFG\PFG-StartProject\build\Debug\PFG-StartProject.exe
