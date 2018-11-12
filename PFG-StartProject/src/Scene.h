@@ -3,6 +3,7 @@
 #define _SCENE_H_
 
 #include "GameObject.h"
+#include "DynamicsObject.h"
 #include "Camera.h"
 
 /*! \brief Brief description.

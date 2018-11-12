@@ -19,6 +19,7 @@ private:
 	bool _start;
 public:
 	DynamicObject();
+	DynamicObject(glm::vec3 pos);
 	~DynamicObject();
 
 	// Update function to override the base class function
@@ -63,6 +64,7 @@ public:
 	// A boolean variable to control the start of the simulation This matrix is the camera's lens
 	void StartSimulation(bool start) { _start = start; }
 
+	glm::vec3 ComputeForces();
 };
 
 #endif //!_DynamicObject_H_

@@ -17,7 +17,7 @@ Scene::Scene()
 	_lightPosition = glm::vec3(10, 10, 0);
 
 	// Create a game object
-	_physics_object = new GameObject();
+	_physics_object = new DynamicObject();
 	// Create a game level object
 	_level = new GameObject();
 
@@ -73,7 +73,7 @@ Scene::Scene()
 	modelMesh->LoadOBJ("assets/models/sphere.obj");
 	// Tell the game object to use this mesh
 	_physics_object->SetMesh(modelMesh);
-	_physics_object->SetPosition(0.0f, 5.0f, 0.0f);
+	_physics_object->SetPosition(0.0f, 10.0f, 0.0f);
 	_physics_object->SetScale(0.3f, 0.3f, 0.3f);
 
 	
